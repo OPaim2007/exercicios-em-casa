@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* CABEÇALHO */
+.cabecalho{
+    height: 110px;
+    background-color: midnightblue;
+    padding-bottom: 10px;
+}
+.peCabecalho{
+    height: 20px;
+    background-color: black;
+    padding: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    .logo{
+        color: white;
+        text-shadow: 4px 4px black;
+        margin: 0 12%;
+        width: 250px;
+        text-align: center;
+        font-size: x-large;
+    }
+}
+@media screen and (max-width: 768px){
+    .logo{
+        width: 100%;
+        color: white;
+        text-shadow: 4px 4px black;
+        text-align: center;
+        font-size: x-large;
+    }
+}
+/* ICONES */
+.doacao{
+    float: right;
+    margin-right: 10%;
+}
+.doacao a{
+    color: white;
+    margin-left: 25px;
+}
+
+/* CONTEÚDO PRINCÍPAL*/
+.conteudo{
+    float: left;
+}
+.assunto{
+    width: 70%;
+    margin: 20px 5% 10px;
+    text-align: justify;
+}
+.assunto h1{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px){
+    .assunto{
+        width: 98%;
+        margin: 20px 1%;
+    }
+    .assunto img{
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 769px){
+    .assunto img{
+        width: 30%;
+        margin: 10px 34%;
+    }
+}
+.assunto p{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+/*__________________________________________________________*/
+.aquecimento{
+    width: 70%;
+    margin: 20px 5% 10px;
+    background-color: white;
+    text-align: center;
+    overflow: auto;
+}
+.aquecimento p{
+    margin-right: 10px;
+}
+.aquecimento h1{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px){
+    .aquecimento{
+        width: 98%;
+        margin: 20px 1%;
+    }
+    .aquecimento img{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 769px){
+    .aquecimento img{
+        width: 35%;
+        margin: 10px 32.5%;
+    }
+}
+.aquecimento li{
+    margin: 12px;
+}
+/*__________________________________________________________*/
+.exercicio{
+    width: 70%;
+    margin: 20px 5% 10px;
+    background-color: white;
+    text-align: center;
+}
+.exercicio h1{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.exercicio p{
+    margin: 10px;
+}
+@media screen and (max-width: 768px){
+    .exercicio{
+        width: 98%;
+        margin: 20px 1%;
+    }
+}
+
+/* E-BOOK */
+.Ebook{
+    width: 70%;
+    margin: 20px 5% 10px;
+    text-align: justify;
+}
+.Ebook h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+.Ebook img{
+    width: 250px;
+    border: 2px solid black;
+    float: right;
+    margin: 0 5px 5% 3%;
+}
+@media screen and (max-width: 768px){
+    .Ebook{
+        width: 98%;
+        margin: 20px 1% 10px;
+        text-align: justify;
+    }
+    .Ebook img{
+        width: 94%;
+        border: 2px solid black;
+        float: right;
+        margin: 3% 3% 5% 3%;
+    }
+}
+
+/* ANÚNCIOS */
+.patrocinio{
+    background-color: gainsboro;
+    overflow: auto;
+    padding: 20px;
+}
+.ads1{
+    background-color: grey;
+    width: 250px;
+    float: left;
+    margin-left: 10%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 8% 0;
+}
+.ads2{
+    background-color: grey;
+    width: 250px;
+    float: left;
+    margin-left: 9%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 8% 0;
+}
+.ads3{
+    background-color: grey;
+    width: 250px;
+    float: left;
+    margin-left: 9%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 8% 0;
+}
+@media screen and (max-width: 768px){
+    .patrocinio{
+        overflow: auto;
+    }
+    .patrocinio div{
+        margin: 5%;
+    }
+    .ads1{
+        background-color: grey;
+        width: 90%;
+        float: left;
+        border: 2px solid black;
+        text-align: center;
+        padding: 8% 0;
+    }
+    .ads2{
+        background-color: grey;
+        width: 90%;
+        float: left;
+        border: 2px solid black;
+        text-align: center;
+        padding: 8% 0;
+    }
+    .ads3{
+        background-color: grey;
+        width: 90%;
+        float: left;
+        border: 2px solid black;
+        text-align: center;
+        padding: 8% 0;
+    }
+}
+
+/*__________________________________________________________*/
+.imagem1{
+    width: 70%;
+    margin: 20px 5% 10px;
+    background-color: white;
+    text-align: justify;
+    overflow: auto;
+}
+@media screen and (max-width: 768px){
+    .imagem1 img{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 769px){
+    .imagem1 img{
+        width: 40%;
+        margin-right: 10px;
+    }
+}
+
+.imagem1 h2{
+    padding: 5px;
+}
+.imagem1 p{
+    margin: 10px;
+}
+/*__________________________________________________________*/
+.imagem2{
+    width: 70%;
+    margin: 20px 5% 10px;
+    background-color: white;
+    text-align: justify;
+    overflow: auto;
+}
+@media screen and (max-width: 768px){
+    .imagem2 img{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 769px){
+    .imagem2 img{
+        width: 40%;
+        margin-right: 10px;
+    }
+}
+
+.imagem2 h2{  
+    padding: 5px;
+}
+.imagem2 p{
+    margin: 10px;
+}
+
+/* RODAPÉ */
+.antes{
+    width: 100%;
+    height: 180px;
+    float: left;
+    background-color: black;
+}
+.antes a{
+    color: white;
+    text-decoration: underline;
+}
+.antes h3{
+    margin: 20px 5%;
+}
+.rodape{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: midnightblue;
+}
+@media screen and (min-width:769px){
+    .rodape h3{
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:768px){
+    .rodape h3{
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* CABEÇALHO */
+.cabecalho{
+    height: 110px;
+    background-color: midnightblue;
+    padding-bottom: 10px;
+}
+.peCabecalho{
+    height: 20px;
+    background-color: black;
+    padding: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    .logo{
+        color: white;
+        text-shadow: 4px 4px black;
+        margin: 0 12%;
+        width: 250px;
+        text-align: center;
+        font-size: x-large;
+    }
+}
+@media screen and (max-width: 768px){
+    .logo{
+        width: 100%;
+        color: white;
+        text-shadow: 4px 4px black;
+        text-align: center;
+        font-size: x-large;
+    }
+}
+
+/* ICONES */
+.doacao{
+    float: right;
+    margin-right: 10%;
+}
+.doacao a{
+    color: white;
+    margin-left: 25px;
+}
+
+/* CONTEÚDO PRÍNCIPAL */
+.conteudoDoe{
+    float: left;
+    height: 100%;
+    font-size: large;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 768px){
+    .conteudoDoe img{
+        width: 90%;
+        float: left;
+        margin: 5%;
+    }
+    .assuntoDoe{
+        width: 96%;
+        margin: 20px 2% 10px;
+        text-align: justify;
+    }
+}
+@media screen and (min-width: 769px){
+    .conteudoDoe img{
+        width: 250px;
+        float: left;
+        margin: 0 5% 0 3%;
+    }
+    .assuntoDoe{
+        width: 70%;
+        margin: 20px 5% 10px;
+        text-align: justify;
+    }
+}
+
+.assuntoDoe h1{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+.assuntoDoe li{
+    margin-bottom: 10px;
+}
+
+/* RODAPÉ */
+.antes{
+    width: 100%;
+    height: 180px;
+    float: left;
+    background-color: black;
+}
+.antes a{
+    color: white;
+    text-decoration: underline;
+}
+.antes h3{
+    margin: 20px 5%;
+}
+.rodape{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: midnightblue;
+}
+@media screen and (min-width:769px){
+    .rodape h3{
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:768px){
+    .rodape h3{
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+    }
+}
